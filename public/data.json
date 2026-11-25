@@ -1,0 +1,185 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Achievements",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Carl Wilson U. Ricafort",
+    "title": "Web Developer · QA Tester · IT Student",
+    "location": "Dumaguete City, Philippines",
+    "bio": "I am a fourth-year BS IT student at Foundation University and will graduate in May 2027. My roles are Web Developer and QA Tester. I am seeking an OJT position as a Web Developer or QA Intern in Dumaguete City from January to May 2027."
+  },
+  "contactInfo": {
+    "email": "carlwilson.ricafort@foundationu.com",
+    "phone": "",
+    "linkedin": "https://linkedin.com/in/carl-wilson-u-ricafort-99801b446/",
+    "github": "https://github.com/carlwilsonricafort-hub",
+    "twitter": "https://x.com/Carlwison58857",
+    "instagram": "https://www.instagram.com/carl_officialll/",
+    "website": "carlwilson.ricafort@foundationu.com"
+  },
+  "skills": {
+    "languages": ["PHP", "JavaScript", "HTML/CSS", "SQL", "C#", "Python"],
+    "frameworks": ["CodeIgniter 4", "jQuery", "AJAX"],
+    "databases": ["MySQL"],
+    "tools": ["Git", "VS Code", "XAMPP"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "SYNAPSE",
+      "description": "Capstone project of Team DevCore: a university-wide integrated management system. I served as QA Tester and Researcher on the team.",
+      "technologies": ["CodeIgniter 4", "React", "Vite"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/rafael-fu2025/synapse_ci?tab=readme-ov-file",
+      "cover": "/assets/synapse.png"
+    },
+    {
+      "id": "2",
+      "title": "Unity Top-Down Shooter",
+      "description": "A top-down shooter game built in Unity featuring player movement, camera tracking, and AI enemy navigation.",
+      "technologies": ["C#", "Unity", "NavMesh", "Cinemachine"],
+      "live_url": "https://drive.google.com/file/d/1TP8turgMO_1tT2LJnw8CmEg_Uyj7Hm6F/view?usp=sharing",
+      "code_repo_url": "https://github.com/carlwilsonricafort-hub/Line-of-Fire---top-down-shooter",
+      "cover": "/assets/lineOfFire.jpg"
+    },
+    {
+      "id": "3",
+      "title": "ONE PIECE Ramen & Fried Chicken",
+      "description": "A multi-page restaurant showcase website for One Piece Chicken Kobayashi, featuring an interactive menu of Japanese karaage, savory pork bites, desserts, and table booking.",
+      "technologies": ["HTML", "CSS"],
+      "live_url": "https://carlwilsonricafort-hub.github.io/Chicken-Karaage-Website/",
+      "code_repo_url": "https://github.com/carlwilsonricafort-hub/Chicken-Karaage-Website",
+      "cover": "/assets/karaage.png"
+    },
+    {
+      "id": "4",
+      "title": "SocialBook",
+      "description": "A web-based social media application featuring user authentication, user profiles, post creation, and interactive feeds built with CodeIgniter 4.",
+      "technologies": [
+        "PHP",
+        "CodeIgniter 4",
+        "JavaScript",
+        "HTML/CSS",
+        "MySQL"
+      ],
+      "live_url": "https://carlwilsonricafort-hub.github.io/SocialBook/",
+      "code_repo_url": "https://github.com/carlwilsonricafort-hub/SocialBook",
+      "cover": "/assets/SB.png"
+    },
+    {
+      "id": "5",
+      "title": "Student Payment Portal",
+      "description": "A web portal for managing student payments using a PHP REST API, PayPal Sandbox integration, and MySQL CRUD operations.",
+      "technologies": ["PHP", "MySQL", "REST API", "PayPal Sandbox"],
+      "live_url": "https://carlwilsonricafort-hub.github.io/scholar-sync/",
+      "code_repo_url": "https://github.com/carlwilsonricafort-hub/scholar-sync",
+      "cover": "/assets/Ssync.png"
+    },
+    {
+      "id": "6",
+      "title": "Nexus Auth",
+      "description": "A web-based user authentication system featuring registration, login, and Google OAuth 2.0 integration.",
+      "technologies": ["PHP", "Google OAuth 2.0", "JavaScript", "HTML/CSS"],
+      "live_url": "https://carlwilsonricafort-hub.github.io/nexus-auth/",
+      "code_repo_url": "https://github.com/carlwilsonricafort-hub/nexus-auth",
+      "cover": "/assets/nextauth.png"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Foundation University",
+      "companyWebsite": "",
+      "role": "Dean's Lister",
+      "startDate": "A.Y. 2023–2024",
+      "endDate": "A.Y. 2024–2025",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Recognized as Dean's Lister in the 1st and 2nd year."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Foundation University",
+      "companyWebsite": "",
+      "role": "College Student Council Auditor",
+      "startDate": "A.Y. 2024–2025",
+      "endDate": "",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Served as Auditor of the College Student Council in the 2nd year."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "HackerRank",
+      "companyWebsite": "",
+      "role": "SQL (Basic) Certificate",
+      "startDate": "Oct 2026",
+      "endDate": "",
+      "technologies": ["SQL", "DBMS"],
+      "keyResponsibilities": [
+        "Earned the SQL (Basic) Skills Certification (Credential ID: 89EC4CA434EF), demonstrating proficiency in simple queries, table relationships, and aggregations."
+      ]
+    },
+    {
+      "id": "4",
+      "company": "IBM SkillsBuild",
+      "companyWebsite": "",
+      "role": "What is open source?",
+      "startDate": "Oct 2026",
+      "endDate": "",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Completed the 'What is open source?' course on IBM SkillsBuild (Credential ID: URL-4B9F8C797BBC)."
+      ]
+    },
+    {
+      "id": "5",
+      "company": "HackerRank",
+      "companyWebsite": "",
+      "role": "Java (Basic) Certificate",
+      "startDate": "Jan 2026",
+      "endDate": "",
+      "technologies": ["Java"],
+      "keyResponsibilities": [
+        "Earned the Java (Basic) Certificate (Credential ID: A9DB3FCE7D09), demonstrating proficiency in core Java concepts including classes, data structures, inheritance, and exception handling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Foundation University, Dumaguete",
+      "degree": "Bachelor of Science in Information Technology",
+      "description": "Fourth-year student. Dean's Lister (1st and 2nd year). College Student Council Auditor (2nd year).",
+      "startDate": "2023",
+      "endDate": "Present"
+    }
+  ],
+  "testimonials": []
+}
