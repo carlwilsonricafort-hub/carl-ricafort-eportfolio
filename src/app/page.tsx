@@ -13,10 +13,9 @@ import { getBlogPosts, getJSONData } from "@/lib/serverUtils";
 import Link from "next/link";
 import {
   EnvelopeClosedIcon,
+  FileTextIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
-  InstagramLogoIcon,
   GlobeIcon,
 } from "@radix-ui/react-icons";
 import { Avatar } from "@/components/ui/avatar";
@@ -36,58 +35,56 @@ export default async function Home() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
-              src="/assets/profile.jpg"
+              src="/assets/profile.png"
               width={280}
               height={280}
               alt="Carl Wilson U. Ricafort"
               className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full"
             />
+            <p className="mt-3 text-center text-base md:text-lg font-medium text-muted-foreground">
+              Web Developer • Systems &amp; Game Builder
+            </p>
           </div>
           <div className="w-full lg:w-2/3 space-y-4">
             <div className="space-y-2">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tighter ">
-                Hey 👋, I&apos;m {data.personalInfo.name}
+              <h1 className="text-4xl font-bold tracking-tighter md:whitespace-nowrap md:text-5xl">
+                Carl Wilson U. Ricafort
               </h1>
             </div>
-            <p className="max-w-[600px] lg:text-lg text-gray-500 dark:text-gray-400">
-              {data.personalInfo.bio}
-            </p>
-            <div className="space-x-4">
-              <Link
-                href={data.contactInfo.github}
-                prefetch={false}
-              >
-                <Button variant="secondary" size="icon">
-                  <GitHubLogoIcon className="h-4 w-4" />
-                </Button>
+            <div className="max-w-[600px] space-y-4 lg:text-lg text-gray-500 dark:text-gray-400">
+              <p>
+                Code gets a feature running, but structured testing is what
+                makes people trust it.
+              </p>
+              <p>
+                Building clean web apps takes speed; catching edge cases takes
+                discipline. I bring both to the table.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-6">
+              <Link href="/resume.pdf" prefetch={false}>
+                <span className="inline-flex items-center gap-2 text-base font-medium text-muted-foreground transition-colors hover:text-foreground">
+                  <FileTextIcon className="h-5 w-5" />
+                  Resume
+                </span>
               </Link>
-              <Link
-                href={data.contactInfo.linkedin}
-                prefetch={false}
-              >
-                <Button variant="secondary" size="icon">
-                  <LinkedInLogoIcon className="h-4 w-4" />
-                </Button>
+              <Link href={data.contactInfo.github} prefetch={false}>
+                <span className="inline-flex items-center gap-2 text-base font-medium text-muted-foreground transition-colors hover:text-foreground">
+                  <GitHubLogoIcon className="h-5 w-5" />
+                  GitHub
+                </span>
               </Link>
-              {data.contactInfo.twitter && (
-                <Link href={data.contactInfo.twitter} prefetch={false}>
-                  <Button variant="secondary" size="icon">
-                    <TwitterLogoIcon className="h-4 w-4" />
-                  </Button>
-                </Link>
-              )}
-              {data.contactInfo.instagram && (
-                <Link href={data.contactInfo.instagram} prefetch={false}>
-                  <Button variant="secondary" size="icon">
-                    <InstagramLogoIcon className="h-4 w-4" />
-                  </Button>
-                </Link>
-              )}
-
+              <Link href={data.contactInfo.linkedin} prefetch={false}>
+                <span className="inline-flex items-center gap-2 text-base font-medium text-muted-foreground transition-colors hover:text-foreground">
+                  <LinkedInLogoIcon className="h-5 w-5" />
+                  LinkedIn
+                </span>
+              </Link>
               <Link href={`mailto:${data.contactInfo.email}`}>
-                <Button variant="secondary" size="icon">
-                  <EnvelopeClosedIcon className="h-4 w-4" />
-                </Button>
+                <span className="inline-flex items-center gap-2 text-base font-medium text-muted-foreground transition-colors hover:text-foreground">
+                  <EnvelopeClosedIcon className="h-5 w-5" />
+                  Email
+                </span>
               </Link>
             </div>
           </div>
@@ -110,10 +107,7 @@ export default async function Home() {
               <h4 className="text-xl font-medium">
                 {exp.role} @
                 {exp.companyWebsite ? (
-                  <Link
-                    href={exp.companyWebsite}
-                    className="ml-2 text-primary"
-                  >
+                  <Link href={exp.companyWebsite} className="ml-2 text-primary">
                     {exp.company}
                   </Link>
                 ) : (
@@ -121,7 +115,8 @@ export default async function Home() {
                 )}
               </h4>
               <div className="text-gray-500 dark:text-gray-400">
-                {exp.startDate}{exp.endDate && ` - ${exp.endDate}`}
+                {exp.startDate}
+                {exp.endDate && ` - ${exp.endDate}`}
               </div>
               <div className="mt-2">
                 <h6 className="font-medium">Details:</h6>
@@ -174,10 +169,7 @@ export default async function Home() {
                 <CardFooter>
                   <div className="flex space-x-3">
                     {project.live_url && (
-                      <Link
-                        href={project.live_url}
-                        prefetch={false}
-                      >
+                      <Link href={project.live_url} prefetch={false}>
                         <Button size="sm">
                           <GlobeIcon className="h-3 w-3 mr-2" />
                           Live Demo
@@ -185,10 +177,7 @@ export default async function Home() {
                       </Link>
                     )}
                     {project.code_repo_url && (
-                      <Link
-                        href={project.code_repo_url}
-                        prefetch={false}
-                      >
+                      <Link href={project.code_repo_url} prefetch={false}>
                         <Button size="sm" variant="outline">
                           <GitHubLogoIcon className="h-3 w-3 mr-2" />
                           Open Repository
