@@ -39,7 +39,7 @@ export default async function Home() {
               width={280}
               height={280}
               alt="Carl Wilson U. Ricafort"
-              className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full"
+              className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full [mask-image:linear-gradient(to_bottom,black_85%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,black_85%,transparent_100%)]"
             />
             <p className="mt-3 text-center text-base md:text-lg font-medium text-muted-foreground">
               Web Developer • Systems &amp; Game Builder
