@@ -37,8 +37,6 @@
     "phone": "",
     "linkedin": "https://linkedin.com/in/carl-wilson-u-ricafort-99801b446/",
     "github": "https://github.com/carlwilsonricafort-hub",
-    "twitter": "https://x.com/Carlwison58857",
-    "instagram": "https://www.instagram.com/carl_officialll/",
     "website": "carlwilson.ricafort@foundationu.com"
   },
   "skills": {
@@ -54,7 +52,7 @@
       "description": "Capstone project of Team DevCore: a university-wide integrated management system. I served as QA Tester and Researcher on the team.",
       "technologies": ["CodeIgniter 4", "React", "Vite"],
       "live_url": "",
-      "code_repo_url": "https://github.com/rafael-fu2025/synapse_ci?tab=readme-ov-file",
+      "code_repo_url": "",
       "cover": "/assets/synapse.png"
     },
     {
@@ -143,7 +141,7 @@
       "endDate": "",
       "technologies": ["SQL", "DBMS"],
       "keyResponsibilities": [
-        "Earned the SQL (Basic) Skills Certification (Credential ID: 89EC4CA434EF), demonstrating proficiency in simple queries, table relationships, and aggregations."
+        "Earned the SQL (Basic) Skills Certification, demonstrating proficiency in simple queries, table relationships, and aggregations."
       ]
     },
     {
@@ -155,7 +153,7 @@
       "endDate": "",
       "technologies": [],
       "keyResponsibilities": [
-        "Completed the 'What is open source?' course on IBM SkillsBuild (Credential ID: URL-4B9F8C797BBC)."
+        "Completed the 'What is open source?' course on IBM SkillsBuild."
       ]
     },
     {
@@ -167,7 +165,7 @@
       "endDate": "",
       "technologies": ["Java"],
       "keyResponsibilities": [
-        "Earned the Java (Basic) Certificate (Credential ID: A9DB3FCE7D09), demonstrating proficiency in core Java concepts including classes, data structures, inheritance, and exception handling."
+        "Earned the Java (Basic) Certificate, demonstrating proficiency in core Java concepts including classes, data structures, inheritance, and exception handling."
       ]
     }
   ],
